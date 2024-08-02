@@ -8,10 +8,10 @@ describe('Data save issue', () => {
     it('Open EMR', () => {
         cy.visit("https://akhilhistest.squbix.com/")
         doctorLogin(cy, email, password)
-        cy.wait(1000)
+        cy.wait(500)
         cy.get("button[type='button']").click()
         cy.wait(1000)
-        elements(cy.get('.row.text-start.cursor-pointer.hover-effect.border-bottom').contains('Nihar')).eq(0).click();
+        elements(cy.get('.row.text-start.cursor-pointer.hover-effect.border-bottom').contains('ARADHYA')).eq(0).click();
         vitals(cy)
         cy.get('button').contains('Draft').click();
         cy.get("div[role='alert']").should('contain','Updated Successfully');
