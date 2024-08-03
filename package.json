@@ -1,0 +1,19 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "This project contains automated tests using Cypress for testing the web application at [https://akhilshittest.squbix.com/](https://akhilshittest.squbix.com/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bikram",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.2",
+    "cypress-xpath": "^2.0.1",
+    "ts-loader": "^9.5.1"
+  },
+  "dependencies": {
+    "acorn-import-attributes": "^1.9.5"
+  }
+}
