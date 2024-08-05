@@ -10,8 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "@cypress/xpath": "^2.0.3",
+    "@types/node": "^22.1.0",
     "cypress": "^13.13.1",
     "cypress-xpath": "^2.0.1",
-    "ts-loader": "^9.5.1"
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }

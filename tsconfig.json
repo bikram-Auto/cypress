@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
+    "types": ["cypress", "node"],
     "target": "es5",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "declaration": true,
+    "emitDeclarationOnly": true
   }
 }
