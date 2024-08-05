@@ -1,3 +1,6 @@
+
+
+
 # Cypress Testing Project
 
 This project contains automated tests using Cypress for testing the web application at [https://akhilshittest.squbix.com/](https://akhilshittest.squbix.com/).
@@ -29,3 +32,12 @@ This project contains automated tests using Cypress for testing the web applicat
    ```bash
    git clone <repository-url>
    cd <repository-directory>
+2. **Install Dependencies:** 
+
+    Make sure you have Node.js installed, then run:
+    ```bash
+    npm install
+3. Configure Cypress:
+
+    The cypress.config.js file contains default configurations such as viewport width and height.
+    Modify this file if you need to adjust settings for your tests.
