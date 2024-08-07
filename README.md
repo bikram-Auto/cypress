@@ -1,9 +1,16 @@
+<p align="center">
+  <a href="https://akhilsystems.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="./cypress/assets/WhiteLogo.png">
+      <source media="(prefers-color-scheme: light)" srcset="./cypress/assets/Logo1.png">
+      <img alt="Cypress Logo" src="./assets/cypress-logo-light.png">
+    </picture>
+  </a>
+</p>
 
+# Healthcare Testing Project
 
-
-# Cypress Testing Project
-
-This project contains automated tests using Cypress for testing the web application at [https://akhilshittest.squbix.com/](https://akhilshittest.squbix.com/).
+This project contains automated tests using Cypress for testing the [HIS](https://akhilsystems.com/) (Hospital Information System).
 
 ## Project Structure
 
@@ -15,11 +22,6 @@ This project contains automated tests using Cypress for testing the web applicat
   - **screenshots/**: Directory for storing screenshots taken during tests.
   - **support/**: Contains helper utilities for tests.
   - **utils/**: Contains utility files used in tests.
-
-- **.vscode/**: Configuration files for Visual Studio Code.
-
-- **node_modules/**: Directory for Node.js packages.
-
 - **cypress.config.js**: Configuration file for Cypress settings, such as viewport dimensions.
 
 - **package.json**: Contains metadata about the project, including dependencies and scripts.
